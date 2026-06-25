@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+.DS_Store
+*.log
+
+# 면접관 전용 내부 자료 (시험 운영 + 해답지). 후보자 배포본에서 제외.
+# 폴더(_internal/)와 압축본(_internal*.zip) 모두 — 정답지 누설 방지.
+/_internal*
